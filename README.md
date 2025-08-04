@@ -1,7 +1,7 @@
 
-# Edge Compute for Multicloud Apps Using AWS VPC Site
+# F5 Edge Compute and Enterprise Networking with F5 Distributed Cloud Services (using Amazon AWS)
 
-# Table of Contents
+## Table of Contents
 - [Objective](#objective)
 - [Scenario](#Scenario)
 - [Use-cases and Module Overview](#use-cases-and-module-overview)
@@ -34,9 +34,9 @@
     - [Test Lightning deals module](#test-lightning-deals-module)
 - [Wrap-Up](#wrap-up)
 
-# Objective
+## Objective
 
-This guide, along with the provided scripts and sample app & services, is designed to help explore and demonstrate the use-cases of the F5 Distributed Cloud platform (xC), including F5 Distributed Cloud AppStack, Multi-Cloud Networking (MCN) and Edge Compute configured using AWS VPC site.
+This guide, along with the provided scripts and sample app & services, is designed to help explore and demonstrate the use-cases of the F5 Distributed Cloud platform (xC): Edge Compute (F5 Distributed Cloud AppStack), Multi-Cloud Networking (MCN) with F5 Distributed Cloud App Connect, configured using AWS VPC site.
 
 You can use the included scripts to deploy the WooCommerce sample app, which represents a traditional 3-tier app architecture (backend + database + frontend). With F5 Distributed Cloud Services, you can easily deploy and securely network these app services to create a distributed app model that spans across: 
 
@@ -50,7 +50,7 @@ You can use the included scripts to deploy the WooCommerce sample app, which rep
 The guide walks through the key use-cases for this distributed app architecture via several modules, all based on the following scenario.
 
 
-# Scenario
+## Scenario
 
 ![alt text](assets/overview-0.png)
 
@@ -61,7 +61,7 @@ The BuyTime Online & Retail scenario is a representative example of a shared Ret
 
 For simplicity, this scenario re-uses the standard WooCommerce datasets for a clothes shop. The modules below lay out a framework for connecting and managing the distributed app services for this scenario, with a focus on the three core use-cases.
 
-# Use-cases and Module Overview 
+## Use-cases and Module Overview 
 
 F5 Distributed Cloud Services (xC) enable a consistent deployment, management, and security model for applications, regardless of where they are run. In this scenario, a fictitious retailer named BuyTime will use xC AppStack to create a consistent deployment topology for an in-store Kiosk shopping experience by utilizing a traditional 3-tier app stack: WooCommerce frontend + backend & MariaDB. This topology can run in multiple Retail Branches with identical configuration, management, and security policies applied.
 
